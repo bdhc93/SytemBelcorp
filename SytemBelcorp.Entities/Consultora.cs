@@ -8,6 +8,7 @@ namespace SytemBelcorp.Entities
         public Consultora()
         {
             this.Zonas = new List<Zona>();
+            this.Horarios = new List<Horario>();
         }
 
         public Int32 Id { get; set; }
@@ -22,5 +23,6 @@ namespace SytemBelcorp.Entities
         public TipoConsultora TipoConsultora { get; set; }
 
         public List<Zona> Zonas { get; set; }
+        public List<Horario> Horarios { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace SytemBelcorp.Entities
     {
         public Horario()
         {
-            this.Horarios = new List<Horario>();
+            this.Visitas = new List<Visita>();
         }
 
         public Int32 Id { get; set; }
@@ -21,6 +21,6 @@ namespace SytemBelcorp.Entities
         public Int32 IdConsultora { get; set; }
         public Consultora Consultora { get; set; }
 
-        public List<Horario> Horarios { get; set; }
+        public List<Visita> Visitas { get; set; }
     }
 }

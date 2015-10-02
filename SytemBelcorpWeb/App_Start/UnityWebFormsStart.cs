@@ -1,6 +1,7 @@
 using System.Web;
 
 using Microsoft.Practices.Unity;
+using Microsoft.Practices.Unity.Configuration;
 using Unity.WebForms;
 
 [assembly: WebActivator.PostApplicationStartMethod( typeof(SytemBelcorpWeb.App_Start.UnityWebFormsStart), "PostStart" )]
@@ -23,7 +24,9 @@ namespace SytemBelcorpWeb.App_Start
 			IUnityContainer container = new UnityContainer();
 			HttpContext.Current.Application.SetContainer( container );
 
-			RegisterDependencies( container );
+            container.LoadConfiguration();
+
+            RegisterDependencies( container );
 		}
 
 		/// <summary>
