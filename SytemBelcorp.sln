@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SytemBelcorp.Entities", "Sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SytemBelcorp.Services", "SytemBelcorp.Services\SytemBelcorp.Services.csproj", "{4B55EF5C-20A2-455F-875D-47293853556C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerarDB", "GenerarDB\GenerarDB.csproj", "{9D82093E-D514-4B24-8191-5E6C9B2A5FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4B55EF5C-20A2-455F-875D-47293853556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B55EF5C-20A2-455F-875D-47293853556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B55EF5C-20A2-455F-875D-47293853556C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D82093E-D514-4B24-8191-5E6C9B2A5FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D82093E-D514-4B24-8191-5E6C9B2A5FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D82093E-D514-4B24-8191-5E6C9B2A5FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D82093E-D514-4B24-8191-5E6C9B2A5FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{AAE0B48D-3225-4829-B5A4-84B61D4F0A51} = {A52EC79C-5B84-4356-B762-A8C5AFCC9BC3}
 		{14B3F5D6-1B76-4A36-9D0B-9A60642E9B2C} = {81249856-01E9-4E06-B9B4-7380447E1EA3}
 		{4B55EF5C-20A2-455F-875D-47293853556C} = {81249856-01E9-4E06-B9B4-7380447E1EA3}
+		{9D82093E-D514-4B24-8191-5E6C9B2A5FC7} = {A52EC79C-5B84-4356-B762-A8C5AFCC9BC3}
 	EndGlobalSection
 EndGlobal
